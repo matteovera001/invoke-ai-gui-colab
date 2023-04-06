@@ -50,3 +50,10 @@ Anything_v3_default:
   width: 512
   height: 512
   vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+ Anime-Lineart-V3.0:
+  weights: models/ldm/stable-diffusion-v1/Anime-Lineart-V3.0.safetensors
+  description: Black and white manga illustration
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
